@@ -1,0 +1,48 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Tinggi minimum layar penuh */
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    /* Ruang fleksibel utama antara header dan footer */
+    padding: 20px;
+    /* Tambahkan padding jika diperlukan */
+}
+
+footer {
+    background-color: #333;
+    /* Warna latar belakang footer */
+    color: white;
+    /* Warna teks footer */
+    text-align: center;
+    /* Teks rata tengah */
+    padding: 20px 0;
+    /* Padding atas dan bawah */
+    font-size: 14px;
+    /* Ukuran teks */
+}
+
+footer nav a {
+    color: #fff;
+    /* Warna tautan */
+    margin: 0 10px;
+    /* Jarak antar tautan */
+    text-decoration: none;
+    /* Hilangkan garis bawah tautan */
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+    /* Garis bawah saat hover */
+}
